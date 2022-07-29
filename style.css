@@ -1,0 +1,401 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --defaultPadding: 45px 50px;
+}
+
+body {
+  background-color: #efeff1;
+}
+
+/* ---------Header section ----------- */
+header {
+  padding: 10px 30px;
+  background-color: #4617fe;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 75vh;
+  justify-content: left;
+  position: relative;
+}
+
+nav {
+  margin: 13px 0 0 49%;
+}
+
+nav > svg {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  margin-left: 4px;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+.nav-item {
+  color: #ffffff;
+  margin: 7px 17px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.nav-item-active {
+  font-weight: 500;
+  color: #8061fd;
+  padding: 6px 15px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.header-text {
+  position: absolute;
+  left: 30px;
+  top: 40%;
+}
+
+.header-text > h2 {
+  color: #ffffff;
+  font-size: 34px;
+  letter-spacing: 1px;
+}
+.header-text > p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.header-image {
+  position: absolute;
+  right: 0;
+  top: 16%;
+  height: 95%;
+  width: 48%;
+}
+/* ------------------ */
+
+/* <!-- Companies --> */
+.companies {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: var(--defaultPadding);
+}
+
+.company-items {
+  text-decoration: none;
+  font-family: "Righteous", cursive;
+  font-size: 22px;
+  color: #000000;
+}
+/* --------------- */
+
+/* Api section  */
+.api {
+  padding: var(--defaultPadding);
+  font-weight: 600;
+}
+
+.api-heading {
+  font-weight: 600;
+  font-family: "Poppins", cursive;
+}
+.cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-head-active {
+  color: #6043d3;
+  margin-top: 10px;
+}
+
+.card-active {
+  background-color: #fff;
+  padding: 20px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card {
+  padding: 20px 18px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card-head {
+  margin-top: 10px;
+}
+
+.card-body {
+  font-size: 12px;
+  font-weight: 200;
+}
+/* ------------------------ */
+
+/* <!-- Blog section --> */
+.blog-heading {
+  padding: var(--defaultPadding);
+}
+.blog-heading > h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.blog-cards {
+  padding: var(--defaultPadding);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 57px;
+  background-color: #fff;
+}
+
+.blog-content > h6 {
+  color: #6043d3;
+}
+.blog-content > h3 {
+  margin-top: 15px;
+}
+.blog-content > small {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.blog-bottom {
+  position: absolute;
+  top: 86%;
+  left: 56%;
+}
+
+.blog-author {
+  position: absolute;
+  font-size: 13px;
+  width: 50%;
+  left: 46%;
+  top: 90%;
+}
+/* ---------------------- */
+
+/* <!-- FAQ SECTION --> */
+.faq-section {
+  padding: var(--defaultPadding);
+  background-color: #d9ddf1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.faq-content > h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.faq-content > h4:nth-child(2) {
+  font-size: 10px;
+  font-weight: 300;
+  margin: 5px 0;
+}
+
+.faq-content > h4:nth-child(3) {
+  margin: 36px 0 16px;
+}
+
+.faq-content > button {
+  padding: 8px 20px;
+  background-color: #5a31fc;
+  border: none;
+  color: #ffffff;
+}
+
+.faq-image {
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+}
+.faq-image > img {
+  height: 370px;
+}
+/* -------------------------- */
+
+/* <!-- Download --> */
+.download-section {
+  padding: var(--defaultPadding);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+  background-color: #ffffff;
+}
+
+.download-content > h1 {
+  font-weight: 700;
+}
+.download-content > h1 > span {
+  font-weight: 100;
+  font-size: 29px;
+}
+
+.download-email {
+  position: relative;
+}
+
+.download-email > form > input {
+  background-color: #e9edff;
+  border: none;
+  outline: none;
+  padding: 12px 250px 12px 38px;
+  border-radius: 50px;
+}
+.download-email > form > button {
+  padding: 10px 36px;
+  background-color: #5a31fc;
+  border: none;
+  color: #ffffff;
+  border-radius: 50px;
+  margin-left: -86px;
+}
+/* ---------------- */
+
+/* ----------footer-section------------- */
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--defaultPadding);
+  background-color: #471afd;
+}
+
+li {
+  list-style: none;
+}
+
+/* -----footer-left------ */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left > img {
+  width: 110px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.list-items {
+  color: #ffffff;
+  margin: 0 16px;
+  font-size: 13px;
+  position: relative;
+}
+
+/* --------footer-right--------- */
+.footer-right > .footer-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logos-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+/* ------------ */
+
+.list > li:nth-child(2) ~ li::before {
+  content: "";
+  height: 13px;
+  position: absolute;
+  left: -16px;
+  top: 2px;
+  width: 0;
+  background-color: #ffffff;
+  border: 1px solid #747aa7;
+}
+
+.logos-list > li:nth-child(1) ~ li::before {
+  content: "";
+  height: 13px;
+  position: absolute;
+  left: -16px;
+  top: 2px;
+  width: 0;
+  background-color: #ffffff;
+  border: 1px solid #747aa7;
+}
+
+/* -----Complete------- */
+
+/* --------------------------------------------->Extra feture*/
+nav > a:hover {
+  color: #9fa0c5;
+}
+
+.nav-item-active:hover {
+  background-color: #e2e1e6;
+}
+
+.company-items:hover {
+  text-decoration: underline;
+}
+
+.card:hover {
+  background-color: #fff;
+}
+
+.blog-content > h6:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.blog-author:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.faq-content > button:hover {
+  background-color: #6b4de5;
+  cursor: pointer;
+}
+
+.download-email > form > button:hover {
+  background-color: #6b4de5;
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
