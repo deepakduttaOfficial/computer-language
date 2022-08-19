@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1330px) {
+  nav {
+    display: none;
+  }
+  .header-image {
+    display: none;
+  }
+  header {
+    flex-direction: column;
+  }
+  .companies {
+    width: 100%;
+  }
+  .header-text {
+    position: static;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .cards {
+    justify-content: center;
+  }
+  .card {
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 1185px) {
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .blog-image {
+    width: 50%;
+  }
+  .blog-image > img {
+    width: 100%;
+  }
+  .blog-content {
+    width: 50%;
+  }
+  .blog-bottom,
+  .blog-author {
+    display: none;
+  }
+  .blog-heading > h1 > br {
+    display: none;
+  }
+  .blog-heading > h1 {
+    text-align: center;
+  }
+  .api-heading > br {
+    display: none;
+  }
+  .api-heading {
+    text-align: center;
+  }
+
+  /* faq-section  */
+  .faq-section {
+    flex-direction: column-reverse;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .faq-image {
+    position: static;
+    width: 100%;
+  }
+  .faq-image > img {
+    width: 100%;
+  }
+  .faq-content {
+    text-align: center;
+    padding: 10px;
+  }
+  .faq-content > h2 > br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 873px) {
+  .download-section {
+    flex-direction: column;
+  }
+  .footer-section {
+    justify-content: center;
+  }
+  .footer-left {
+    margin: 20px 0;
+  }
+  .download-email > form > button {
+    margin: 10px 0;
+  }
+  .download-email > form {
+    text-align: center;
+  }
+}
